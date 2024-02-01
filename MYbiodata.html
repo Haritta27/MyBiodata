@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    *{
+    box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        font-family:Georgia;
+    }
+    footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+    }
+    .textarea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    textarea{
+        width: 180%;
+        height: 120px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        font-size: 16px;
+        resize: none;
+    }
+    hr {
+    border: 1px solid #ccc; 
+    }
+    a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(8, 167, 206);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  } 
+    a:hover, a:active {
+    background-color: rgb(143, 216, 247);
+    color: white;
+  }
+    .header {
+    background-color: rgb(128, 200, 227);
+    color: aliceblue;
+    border: 2px solid rgb(229, 223, 223);
+    padding: 15px;
+    }
+    .menu {
+    flex: 1;
+    order: 1;
+    width: 50%;
+    float: left;
+    padding-bottom: 10px;
+    border: 2px solid rgb(203, 231, 237);
+    }
+    .main {
+    flex: 1;
+    width: 50%;
+    float: left;
+    padding-bottom: 10px;
+    border: 2px solid rgb(203, 231, 237);
+    }
+</style>
+</head>
+<body>
+<div class="header">
+<h1 align="center">MY BIODATA</h1>
+</div>
+<div class="menu">
+ <ul>
+ <li><i><b>EDUCATION</b></i></li>
+ <p>12th % : 87.3</p>
+ <p>10th % : 82.6</p>
+ <li><i><b>SKILLS</i></b></li>
+ <p>Java</p>
+ <p>C</p>
+ <p>C++</p>
+ <p>Python</p>
+ <p>HTML</p>
+ <p>CSS</p>
+ <p>DSA</p>
+ </ul>
+</div>
+<div class="main">
+ <h3>HARITTA</h3>
+ <p>INSTITUTE: Vellore Institute of Technology, Vellore</p>
+ <p>DOB: 27-12-2004</p>
+ <p>GENDER: Female</p>
+ <p>AGE: 19</p>
+ <p>PASSING YEAR: 2026</p>
+ <p>E-MAIL: haritta@gmail.com</p>
+ <p>PH NO:95XXXXXXXX</p>
+ <p>COURSE: B.Tech</p>
+ <p>SPECIALIZATION: Computer Science</p><br>
+</div><br>
+<hr><br>
+<p><i>As I continue to enhance my website, I would greatly appreciate your valuable feedback. Kindly share your thoughts by providing your reviews to help me improve the overall experience.</i></p>
+<div class='textarea'>
+    <form action="MYbiodata.html" method="post">
+        <textarea name="feedback" placeholder="Feedback..."></textarea>
+        <br>
+        <input type="button" onclick="alert('Your feedback is submitted successfully. THANK YOU!!!')" value="Submit">
+    </form>
+</div>
+<br><p align="center"><a href="index.html"><b>BACK</b></a></p>
+</body>
+</html>
